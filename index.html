@@ -1,14 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="theme-color" content="#005eb8" />
-    <meta name="description" content="Prueba de visor CAD para el mapa de autobuses interurbanos." />
-    <title>Mapa Autobús Interurbans — MLightCAD prueba</title>
+
+    <title>Mapa Autobús Interurbans 2025 — Visor CAD</title>
+    <meta
+      name="description"
+      content="Visor CAD del mapa de autobuses interurbanos de 2025, con visualización de coordenadas."
+    />
+    <meta name="theme-color" content="#005EB8" />
+    <script type="module" crossorigin src="./assets/main-CEgveIkN.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/main-DLazJOOA.css">
   </head>
+
   <body>
+    <div
+      id="loader"
+      style="position: fixed; inset: 0; display: flex; align-items: center; justify-content: center; background: white; z-index: 9999;"
+    >
+      <div class="spinner"></div>
+    </div>
+
     <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,1 @@
+import{F as t}from"./cad-simple-viewer-Cw8nUF4z.js";import{s as e}from"./main-CEgveIkN.js";import"./three-renderer-C1rm17jf.js";import"./three-CeSvKR11.js";import"./data-model-BGo5WIX7.js";class l extends t{async execute(){e.selectedFile=null,e.isNewDrawing=!1}}export{l as AcApQuitCmd};
